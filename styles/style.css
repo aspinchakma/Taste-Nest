@@ -6,3 +6,71 @@
 body {
   font-family: "Inter", sans-serif;
 }
+/* navigation section */
+nav {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-middle {
+  list-style: none;
+  display: flex;
+}
+.navigation-middle li {
+  padding: 0px 12px;
+}
+.navigation-middle > li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.5s;
+}
+.navigation-middle > li > a:hover {
+  color: #ffc222;
+}
+.navigation_right_section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navigation_right_section button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #ffc222;
+  border: 2px solid #ffc222;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.5s;
+}
+.navigation_right_section button:hover {
+  background-color: white;
+  color: #ffc222;
+}
+.navigation_right_section i {
+  font-size: 18px;
+}
+.nav_cart {
+  position: relative;
+}
+.nav_cart p {
+  position: absolute;
+  font-size: 11px;
+  top: -9px;
+  right: -7px;
+  font-weight: bolder;
+  padding: 1px 4px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+.nav_cart i {
+  color: #00a149;
+}
+.nav_cart i:last-child {
+  font-size: 30px;
+}
