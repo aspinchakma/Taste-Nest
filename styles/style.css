@@ -6,6 +6,14 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+/* common style */
+.pink_color {
+  color: #f3274c;
+}
+.pink_background {
+  background-color: #f3274c;
+}
 /* Header section */
 header {
   min-height: 100vh;
@@ -135,4 +143,76 @@ nav {
 .hero_left_container button:hover {
   background-color: white;
   color: #ee284b;
+}
+
+/* service container */
+.service_container {
+  width: 92.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  gap: 20px;
+  align-items: center;
+}
+.service_image img {
+  width: 100%;
+}
+
+.service_container_left_about {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.service_container_left > h2 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.service_container_left_description {
+  font-size: 18px;
+  color: #5c5c5b;
+  margin: 20px 0;
+}
+.service_container_mini {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.service_container_min_mini {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.service_container_min_mini h3 {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.service_container_btn {
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  border: 1px solid #f3274c;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.service_btn_container {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+.service_container_btn:hover {
+  background-color: white;
+  color: #f3274c;
+}
+.service_btn_container > div > h3 {
+  font-weight: bolder;
+  color: #ffc222;
+}
+.service_btn_container > div > p {
+  font-weight: bolder;
 }
