@@ -582,7 +582,7 @@ footer {
 }
 .footer_up_container > div > h3 {
   font-size: 24px;
-  border-bottom: 3px solid #ffc222;
+  border-bottom: 2px solid #ffc222;
   width: fit-content;
 }
 .footer_two_mini_container {
@@ -602,7 +602,7 @@ footer {
 }
 
 .main_footer_container hr {
-  border: 3px solid #ffc222;
+  border: 1px solid #ffc222;
   height: 0;
   margin: 60px 0 20px 0;
 }
