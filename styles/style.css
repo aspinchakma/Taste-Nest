@@ -217,6 +217,97 @@ nav {
   font-weight: bolder;
 }
 
+/* About Our Food Section */
+.our_food_section {
+  width: 92.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+.our_food_section > div > img {
+  width: 100%;
+}
+.our_food_left {
+  position: relative;
+}
+.our_food_left > div {
+  background-color: #ffc022e5;
+  width: fit-content;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+}
+.our_food_left > div > h3 {
+  font-size: 26px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.our_food_right_mini_container_two {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.our_food_right > h3 {
+  color: #00a149;
+  font-weight: bolder;
+}
+.our_food_right > h2 {
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.our_food_right > p {
+  color: #5c5c5b;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.our_food_right_mini_container_one {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.our_food_right_mini_container_one > div {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 15px;
+  border-right: 1px solid #d9d9d9;
+}
+.our_food_right_mini_container_one > div:last-child {
+  border-right: none;
+}
+.our_food_right_mini_container_one h3 {
+  font-weight: bolder;
+  font-size: 18px;
+}
+.our_food_right_mini_container_one h4 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #ffc222;
+  margin-top: 5px;
+}
+.our_food_right_mini_container_two button {
+  flex: 1;
+}
+.our_food_right button {
+  border-radius: 40px;
+  background-color: black;
+  font-weight: bolder;
+  color: white;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.our_food_right button > span {
+  color: #ffc222;
+}
+
 /* news and blog section */
 .news_blog_section_container {
   width: 85%;
@@ -276,7 +367,6 @@ nav {
 /* follow section */
 .follow_section {
   margin: 80px 0;
-  border: 1px solid black;
 }
 .follow_section_icon {
   margin: 0px auto;
