@@ -205,6 +205,74 @@ nav {
   border-radius: 20px;
   margin-left: 15px;
 }
+
+/* premium quality section */
+.premium_quality_container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 85%;
+  margin: 0px auto;
+}
+.premium_quality_one {
+  grid-row: 1/2;
+}
+.premium_quality_two {
+  grid-row: 1/-1;
+  position: relative;
+}
+.premium_quality_two > div {
+  position: absolute;
+  top: 60px;
+  left: 65px;
+}
+.premium_quality_two h3 {
+  font-size: 20px;
+  font-style: italic;
+}
+.premium_quality_two h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.premium_quality_two > div > h3,
+h2 {
+  color: white;
+}
+.premium_quality_three {
+  grid-row: 1/-1;
+}
+.premium_quality_four {
+  grid-row: 2/-1;
+}
+.premium_quality_two button {
+  background-color: #007a4b;
+  color: white;
+  border: 1px solid #007a4b;
+  padding: 6px 8px 6px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bolder;
+  transition: all 0.6s;
+}
+.premium_quality_two i {
+  color: #01693a;
+  font-weight: bolder;
+  background-color: white;
+  padding: 12px 23px 10px 14px;
+  border-radius: 20px;
+  margin-left: 15px;
+  transition: all 0.6s;
+}
+.premium_quality_two button:hover {
+  background-color: white;
+  color: #007a4b;
+}
+.premium_quality_two button:hover i {
+  background-color: #007a4b;
+  color: white;
+}
 /* service container */
 .service_container {
   width: 92.5%;
