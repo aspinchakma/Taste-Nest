@@ -19,6 +19,12 @@ header {
   min-height: 100vh;
 }
 /* navigation section */
+.nav_container {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 7;
+}
 nav {
   width: 85%;
   margin: 0px auto;
@@ -89,8 +95,8 @@ nav {
 
 /* banner section starts */
 .hero_container {
-  border: 1px solid black;
   background-image: url("/images/hero-banner.png");
+  padding-top: 100px;
 }
 .hero_content_container {
   width: 85%;
