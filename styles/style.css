@@ -961,4 +961,22 @@ footer {
     grid-template-columns: 1fr;
     gap: 20px;
   }
+  /* footer section */
+  footer {
+    background-image: none;
+  }
+  .main_footer_container {
+    width: 95%;
+  }
+  .footer_up_one {
+    text-align: center;
+  }
+  .footer_up_one img {
+    width: 250px;
+    height: auto;
+  }
+  .footer_up_container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }
