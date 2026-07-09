@@ -839,18 +839,27 @@ footer {
     width: 100%;
     margin: 0 auto;
     position: static;
+    position: fixed;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    z-index: 7;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .navigation-middle {
     display: none;
-  }
-  nav {
-    width: 95%;
   }
   .nav_cart {
     display: none;
   }
   nav button {
     display: none;
+  }
+  nav {
+    width: 95%;
   }
   /* banner section */
   .hero_content_container {
