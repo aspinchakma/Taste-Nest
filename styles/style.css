@@ -896,4 +896,17 @@ footer {
   .best_selling_main_container {
     grid-template-columns: 1fr;
   }
+  /* premium section */
+  .premium_quality_container {
+    grid-template-columns: 1fr;
+    width: 95%;
+    gap: 10px;
+    border: 1px solid black;
+  }
+  .premium_quality_one,
+  .premium_quality_two,
+  .premium_quality_three,
+  .premium_quality_four {
+    grid-row: auto;
+  }
 }
