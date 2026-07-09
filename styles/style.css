@@ -858,11 +858,26 @@ footer {
     font-size: 40px;
     line-height: 50px;
   }
+  .hero_right_container {
+    margin-top: 20px;
+  }
 
   .hero_right_container img {
     width: 100%;
   }
   .limited_offer_text {
     margin: 12px 0;
+  }
+
+  /* different items section */
+  .different_items {
+    width: 95%;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .different_items_mini_container {
+    padding: 13px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   }
 }
