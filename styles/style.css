@@ -943,4 +943,15 @@ footer {
     display: block;
     margin: 20px auto;
   }
+
+  /* news and blog section */
+  .news_blog_section_container {
+    width: 95%;
+  }
+  .news_blog_section_container > h3 {
+    font-size: 35px;
+  }
+  .blog_container {
+    grid-template-columns: 1fr;
+  }
 }
