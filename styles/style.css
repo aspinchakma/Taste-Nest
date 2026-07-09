@@ -901,12 +901,46 @@ footer {
     grid-template-columns: 1fr;
     width: 95%;
     gap: 10px;
-    border: 1px solid black;
   }
   .premium_quality_one,
   .premium_quality_two,
   .premium_quality_three,
   .premium_quality_four {
     grid-row: auto;
+  }
+
+  /* about our section */
+  .our_food_section {
+    width: 95%;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 0 auto 80px;
+  }
+  .our_food_left > div > h3 {
+    font-size: 20px;
+  }
+  .our_food_right > h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .our_food_right_mini_container_one {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .our_food_right_mini_container_one > div {
+    padding: 20px 0;
+    border: 1px solid #d9d9d9;
+  }
+  .our_food_right_mini_container_two {
+    display: block;
+  }
+  .our_food_right_mini_container_two button {
+    width: 100%;
+  }
+  .our_food_right_mini_container_two img {
+    width: 30%;
+    display: block;
+    margin: 20px auto;
   }
 }
