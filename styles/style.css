@@ -909,6 +909,34 @@ footer {
     grid-row: auto;
   }
 
+  /* service section */
+  .service_container {
+    width: 95.5%;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    gap: 20px;
+  }
+  .service_container_left > h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .service_container_left_description {
+    font-size: 17px;
+  }
+  .service_container_mini {
+    grid-template-columns: 1fr;
+  }
+  .service_container_min_mini img {
+    max-width: 100px;
+  }
+  .service_btn_container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .service_btn_container button {
+    order: 2;
+  }
+
   /* about our section */
   .our_food_section {
     width: 95%;
