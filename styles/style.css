@@ -982,6 +982,22 @@ footer {
   .blog_container {
     grid-template-columns: 1fr;
   }
+
+  /* delivery section */
+  .delivery_container {
+    width: 95%;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+  .delivery_container_left > div {
+    justify-content: center;
+  }
+
+  .delivery_container_right {
+    text-align: center;
+  }
+
   /* follow section */
   .follow_section_image_container {
     width: 95%;
