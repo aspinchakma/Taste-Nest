@@ -954,4 +954,11 @@ footer {
   .blog_container {
     grid-template-columns: 1fr;
   }
+  /* follow section */
+  .follow_section_image_container {
+    width: 95%;
+    margin: 30px auto;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
