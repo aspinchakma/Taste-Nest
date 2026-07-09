@@ -831,3 +831,19 @@ footer {
 .footer_down_section > div a {
   color: black;
 }
+
+/* Media query for mobile responsive */
+@media screen and (max-width: 639px) {
+  nav {
+    width: 95%;
+  }
+  .navigation-middle > li {
+    display: none;
+  }
+  .nav_cart {
+    display: none;
+  }
+  nav button {
+    display: none;
+  }
+}
